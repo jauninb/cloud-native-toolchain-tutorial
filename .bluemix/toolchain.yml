@@ -30,7 +30,7 @@ toolchain:
       $ref: "#/messages/template.gettingStarted"
 services:
   sample-repo:
-    service_id: githubconsolidated
+    service_id: hostedgit
     parameters:
       repo_name: 'sample-{{toolchain.name}}'
       repo_url: 'https://github.com/open-toolchain/cloud-native-toolchain-tutorial-app'
